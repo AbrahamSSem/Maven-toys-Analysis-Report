@@ -1,4 +1,4 @@
-# Maven-toys-Analysis-Report
+# Maven Toys' Sales, Profit and Inventory Analysis
 This report analyzes Maven Toys' sales from Jan 2022 to Sep 2023 to uncover key insights on top profit-driving products, seasonal sales trends, inventory management, and the impact of out-of-stock items. It uses Power Query and DAX for actionable insights to enhance profitability and efficiency.
 
 # Project Objective & Scenario
