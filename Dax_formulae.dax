@@ -1,0 +1,66 @@
+-- Total Revenue - Calculates the total revenue from sales.
+Total Revenue = CALCULATE(SUMX(sales, sales[Units] * RELATED(products[Product_Price])))
+
+-- COGs (Cost of Goods Sold) - Calculates total cost of goods sold based on units sold and cost.
+COGs = CALCULATE(SUMX(sales, sales[Units] * RELATED(products[Product_Cost])))
+
+-- Profit - Subtracts COGS from total revenue to calculate profit.
+Profit = [Total Revenue] - [COGs]
+
+-- Moving Average - Calculates 3-month moving average of sales to identify trends.
+Moving Avg =
+VAR Period = 
+    DATESINPERIOD(
+        'calendar'[Date],
+        MAX('calendar'[Date]),
+        3,
+        MONTH
+    )
+VAR Total_Sales = 
+    CALCULATE(
+        SUM(sales[Revenue]),  
+        Period
+    )
+VAR Mon =
+    CALCULATE(
+        DISTINCTCOUNT('calendar'[Date (Month)]),
+        Period
+    )
+RETURN
+    DIVIDE(Total_Sales, Mon)
+
+-- Total Number of Days - Calculates total number of days in the sales period.
+Total Number of Days =
+VAR MinDate = MIN(sales[Date])
+VAR MaxDate = MAX(sales[Date])
+RETURN
+    DATEDIFF(MinDate, MaxDate, DAY) + 1
+
+-- Average Units Per Day - Computes average units sold per day.
+Average Units Per Day =
+DIVIDE([Total Units Sold], [Total Number of Days])
+
+-- Average Sales Per Day - Computes average revenue per day.
+Average Sales Per Day =
+DIVIDE([Total Revenue], [Total Number of Days])
+
+-- Stock Cover - Measures how many days current stock will last based on daily sales.
+Stock Cover =
+DIVIDE([Total Stock on Hand], [Average Units Per Day])
+
+-- Inventory Turnover - Measures how quickly inventory is sold based on average daily sales.
+Inventory Turnover =
+DIVIDE([Total Inv Product Value], [Average Sales Per Day])
+
+-- CountProductMissingPerStore - Counts missing product quantities based on combos.
+CountProductMissingPerStore :=
+CALCULATE(COUNTROWS('Combination Table'), ISBLANK('Combination Table'[UnitsSoldCombination]))
+
+-- CountofStoreMissingProduct - Counts stores missing a product based on combo.
+CountofStoreMissingProduct =
+CALCULATE(
+    COUNTROWS(VALUES('Combination Table'[Store ID])),
+    ISBLANK('Combination Table'[UnitsSoldCombination])
+)
+
+
