@@ -28,26 +28,26 @@ Location-Specific Insights: Electronics dominate at Airport and Commercial locat
 ### 2. Seasonal Sales Trends
 ![image](https://github.com/user-attachments/assets/88aaed0d-a2a1-4d85-a6b6-3ea8f413ec93)
 
-Yearly Trends: Sales in 2023 consistently outperformed 2022, with peaks in May and December, likely due to holiday or promotional events.
+**Yearly Trends:** Sales in 2023 consistently outperformed 2022, with peaks in May and December, likely due to holiday or promotional events.
 
 ![image](https://github.com/user-attachments/assets/4b2c7578-1fed-4353-ae49-81ce1a2ed509)
 
-Seasonal Dips and Opportunities: Sales tend to dip between June and September, coinciding with summer and back-to-school periods in Mexico. This suggests an opportunity for targeted campaigns during these months.
+**Seasonal Downs and Opportunities:** Sales tend to dip between June and September, coinciding with summer and back-to-school periods in Mexico. This suggests an opportunity for targeted campaigns during these months.
 
 ### 3. Impact of Out-of-Stock Products on Sales
 ![image](https://github.com/user-attachments/assets/6b1edf5c-607f-497b-8d2f-2d5549cf3196)
 
-Inventory Gaps: 24 stores carry fewer than the full set of 35 products, mostly in Downtown areas.
+**Inventory Gaps:** 24 stores carry fewer than the full set of 35 products, mostly in Downtown areas.
 
 ![image](https://github.com/user-attachments/assets/46c20c60-687d-495c-8a22-9702dcfedcd7)
 
-Low Impact on Revenue: The missing products in these stores are not top earners, collectively accounting for less than 0.5% of total revenue from January 2022 to September 2023.
-Optimization Opportunity: The top-performing stores don't necessarily carry full inventory, indicating a need to optimize product mix rather than ensuring all products are stocked in every store.
+**Low Impact on Revenue:** The missing products in these stores are not top earners **(bottom five)**, collectively accounting for less than **0.5%** of total revenue from **January 2022 to September 2023.**
+**Optimization Opportunity:** The top-performing stores don't necessarily carry full inventory, indicating a need to optimize product mix rather than ensuring all products are stocked in every store.
 
 ### 4. Inventory Value and Turnover
-Current Stock Levels: The total Stock on Hand (SOH) is 29,742 units across all locations, valued at $300,210.
-Inventory Turnover Period (ITP): The ITP is 13 days, meaning it would take just 13 days to sell through current inventory, signaling efficient inventory management.
-Stock Cover (SC): The SC is 17 days, suggesting some discrepancies in stock levels across locations.
+Current Stock Levels: The total Stock on Hand (SOH) is <u>**29,742**</u> units across all locations, valued at <u>**$300,210.**</u>
+Inventory Turnover Period (ITP): The ITP is <u>**13 days**</u>, meaning it would take just 13 days to sell through current inventory, signaling efficient inventory management.
+Stock Cover (SC): The SC is <u>**17 days**<u/>, suggesting some discrepancies in stock levels across locations.
 
 # Recommendations and Suggestions
 - Focus on Electronics: Despite a decline in sales, Electronics remains a high-margin category. Investigating and addressing the causes of this decline could improve overall profitability.
