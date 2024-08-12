@@ -1,4 +1,4 @@
-# Maven Toys' Sales, Profit and Inventory Analysis
+# Maven Toys' Sales Inventory Analysis Report
 This report analyzes Maven Toys' sales from Jan 2022 to Sep 2023 to uncover key insights on top profit-driving products, seasonal sales trends, inventory management, and the impact of out-of-stock items. It uses Power Query and DAX for actionable insights to enhance profitability and efficiency.
 
 # Project Objective & Scenario
@@ -50,8 +50,8 @@ Inventory Turnover Period (ITP): The ITP is <u>**13 days**</u>, meaning it would
 Stock Cover (SC): The SC is <u>**17 days**<u/>, suggesting some discrepancies in stock levels across locations.
 
 # Recommendations and Suggestions
-- Focus on Electronics: Despite a decline in sales, Electronics remains a high-margin category. Investigating and addressing the causes of this decline could improve overall profitability.
-- Seasonal Marketing: Consider running campaigns during the June-September period to capitalize on summer and back-to-school events.
+- Focus on Electronics: Despite a decline in sales, Electronics remains a high-margin category. Investigating (sales team) and addressing the causes of this decline could improve overall profitability.
+- Seasonal Marketing: Consider running campaigns (marketing team) during the June-September period to capitalize on summer and back-to-school events.
 - Optimize Inventory Mix: Rather than stocking all products in every store, focus on optimizing the product mix based on local demand to enhance sales performance.
 
 
